@@ -1035,7 +1035,7 @@ void Track::setTransposeClef(int clef)
     m_transposeClef = ClefType(clef);
 }
 
-ClefType Track::getTansposeClef() const
+ClefType Track::getTransposeClef() const
 {
     return m_transposeClef;
 }
