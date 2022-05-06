@@ -4011,7 +4011,7 @@ static void directionTag(XmlWriter& xml, Attributes& attr, EngravingItem const* 
                    sys->pagePos().x(),
                    sys->pagePos().y()
                   );
-            qDebug("directionTag()  staf x=%g y=%g w=%g h=%g",
+            qDebug("directionTag()  staff x=%g y=%g w=%g h=%g",
                    bb.x(), bb.y(),
                    bb.width(), bb.height());
             // element is above the staff if center of bbox is above center of staff
@@ -4034,7 +4034,7 @@ static void directionTag(XmlWriter& xml, Attributes& attr, EngravingItem const* 
                 tagname += "\"";
             } else {
                 /*
-                qDebug("directionTag()  staf ely=%g elh=%g bby=%g bbh=%g",
+                qDebug("directionTag()  staff ely=%g elh=%g bby=%g bbh=%g",
                        el->y(), el->height(),
                        bb.y(), bb.height());
                  */
