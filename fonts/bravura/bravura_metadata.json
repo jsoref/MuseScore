@@ -3024,7 +3024,7 @@
 		"stemRimShot":0.06,
 		"stemSprechgesang":0.06,
 		"stemSulPonticello":0.06,
-		"stemSussurando":0.06,
+		"stemSussurrando":0.06,
 		"stemSwished":0.06,
 		"stemVibratoPulse":0.06,
 		"stockhausenTremolo":0.588,
@@ -3345,7 +3345,7 @@
 		"vocalSprechgesang":0.644,
 		"vocalTongueClickStockhausen":2.72,
 		"vocalTongueFingerClickStockhausen":2.664,
-		"vocalsSussurando":0.516,
+		"vocalsSussurrando":0.516,
 		"wiggleArpeggiatoDown":1.02,
 		"wiggleArpeggiatoDownArrow":2.064,
 		"wiggleArpeggiatoDownSwash":1.784,
@@ -33316,7 +33316,7 @@
 				0.0
 			]
 		},
-		"stemSussurando":{
+		"stemSussurrando":{
 			"bBoxNE":[
 				0.516,
 				3.5
@@ -36526,7 +36526,7 @@
 				0.0
 			]
 		},
-		"vocalsSussurando":{
+		"vocalsSussurrando":{
 			"bBoxNE":[
 				0.516,
 				1.584

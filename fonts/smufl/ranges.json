@@ -3444,7 +3444,7 @@
 			"stemMultiphonicsBlack",
 			"stemMultiphonicsWhite",
 			"stemMultiphonicsBlackWhite",
-			"stemSussurando",
+			"stemSussurrando",
 			"stemRimShot",
 			"stemHarpStringNoise"
 		],
@@ -3736,7 +3736,7 @@
 			"vocalMouthWideOpen",
 			"vocalMouthPursed",
 			"vocalSprechgesang",
-			"vocalsSussurando",
+			"vocalsSussurrando",
 			"vocalNasalVoice",
 			"vocalTongueClickStockhausen",
 			"vocalFingerClickStockhausen",

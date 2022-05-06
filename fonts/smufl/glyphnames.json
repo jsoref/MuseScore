@@ -10763,9 +10763,9 @@
 		"codepoint": "U+E214",
 		"description": "Combining sul ponticello (bow behind bridge) stem"
 	},
-	"stemSussurando": {
+	"stemSussurrando": {
 		"codepoint": "U+E21D",
-		"description": "Combining sussurando stem"
+		"description": "Combining sussurrando stem"
 	},
 	"stemSwished": {
 		"codepoint": "U+E212",
@@ -11521,9 +11521,9 @@
 		"codepoint": "U+E64A",
 		"description": "Tongue and finger click (Stockhausen)"
 	},
-	"vocalsSussurando": {
+	"vocalsSussurrando": {
 		"codepoint": "U+E646",
-		"description": "Combining sussurando for stem"
+		"description": "Combining sussurrando for stem"
 	},
 	"wiggleArpeggiatoDown": {
 		"codepoint": "U+EAAA",
