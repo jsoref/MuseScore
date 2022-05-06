@@ -643,7 +643,7 @@ std::pair<int, std::shared_ptr<GPBeat> > GP67DomBuilder::createGPBeat(QDomNode* 
         } else if (nodeName == "Tremolo") {
             GPBeat::Tremolo tr;
             tr.enumerator = innerNode.toElement().text().split("/").at(0).toInt();
-            tr.denumerator = innerNode.toElement().text().split("/").at(1).toInt();
+            tr.denomerator = innerNode.toElement().text().split("/").at(1).toInt();
             beat->setTremolo(tr);
         } else if (nodeName == "Wah") {
             beat->setWah(wahType(innerNode.toElement().text()));
@@ -801,8 +801,8 @@ std::pair<int, std::shared_ptr<GPRhytm> > GP67DomBuilder::createGPRhythm(QDomNod
             rhythm->setDotCount(innerNode.attributes().namedItem("count").toAttr().value().toInt());
         } else if (nodeName == "PrimaryTuplet") {
             int num = innerNode.attributes().namedItem("num").toAttr().value().toInt();
-            int denum = innerNode.attributes().namedItem("den").toAttr().value().toInt();
-            rhythm->setTuplet({ num, denum });
+            int denom = innerNode.attributes().namedItem("den").toAttr().value().toInt();
+            rhythm->setTuplet({ num, denom });
         } else {
             LOGD() << "unknown GP Rhytms tag" << nodeName << "\n";
         }
@@ -1269,7 +1269,7 @@ std::vector<GPMasterBar::Fermata> GP67DomBuilder::readFermatas(QDomNode* fermata
                 auto str = fermataProperty.toElement().text();
                 auto numbers = str.split("/");
                 fermata.offsetEnum = numbers[0].toInt();
-                fermata.offsetDenum = numbers[1].toInt();
+                fermata.offsetDenom = numbers[1].toInt();
             } else if (nodeName == "Length") {
                 fermata.lenght = fermataProperty.toElement().text().toFloat();
             }

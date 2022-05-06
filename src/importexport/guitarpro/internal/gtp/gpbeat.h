@@ -53,7 +53,7 @@ public:
 
     struct Tremolo {
         int enumerator{ -1 };
-        int denumerator{ -1 };
+        int denomerator{ -1 };
     };
 
     struct Barre {
