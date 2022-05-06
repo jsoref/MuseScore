@@ -395,7 +395,7 @@ MidiInstrument minstr[] = {
     { 4, 0, 20, 95, 0, "Shwimmer" },
     { 4, 0, 27, 95, 0, "Converge" },
     { 4, 0, 64, 95, 0, "PolarPad" },
-    { 4, 0, 66, 95, 0, "Celstial" },
+    { 4, 0, 66, 95, 0, "Celestial" },
     { 4, 0, 65, 95, 0, "Sweepy" },
 // Synth FX
     { 7, 0, 0, 96, 0, "Rain" },
