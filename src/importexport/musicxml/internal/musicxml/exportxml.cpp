@@ -4253,12 +4253,12 @@ static void beatUnit(XmlWriter& xml, const TDuration dur)
 }
 
 //---------------------------------------------------------
-//   wordsMetrome
+//   wordsMetronome
 //---------------------------------------------------------
 
-static void wordsMetrome(XmlWriter& xml, Score* s, TextBase const* const text, const int offset)
+static void wordsMetronome(XmlWriter& xml, Score* s, TextBase const* const text, const int offset)
 {
-    //qDebug("wordsMetrome('%s')", qPrintable(text->xmlText()));
+    //qDebug("wordsMetronome('%s')", qPrintable(text->xmlText()));
     const std::list<TextFragment> list = text->fragmentList();
     std::list<TextFragment> wordsLeft;          // words left of metronome
     bool hasParen;                          // parenthesis
@@ -4342,7 +4342,7 @@ void ExportMusicXml::tempoText(TempoText const* const text, staff_idx_t staff)
     */
     _attr.doAttr(_xml, false);
     _xml.startObject(QString("direction placement=\"%1\"").arg((text->placement() == PlacementV::BELOW) ? "below" : "above"));
-    wordsMetrome(_xml, _score, text, offset);
+    wordsMetronome(_xml, _score, text, offset);
 
     if (staff) {
         _xml.tag("staff", static_cast<int>(staff));
@@ -4379,7 +4379,7 @@ void ExportMusicXml::words(TextBase const* const text, staff_idx_t staff)
     }
 
     directionTag(_xml, _attr, text);
-    wordsMetrome(_xml, _score, text, offset);
+    wordsMetronome(_xml, _score, text, offset);
     directionETag(_xml, staff);
 }
 
