@@ -224,7 +224,7 @@ Note* Score::addPitch(NoteVal& nval, bool addFlag, InputState* externalInputStat
             std::vector<Note*> notes = chord->notes();
             // break all ties into current chord
             // these will exist only if user explicitly moved cursor to a tied-into note
-            // in ordinary use, cursor will autoamtically skip past these during note entry
+            // in ordinary use, cursor will automatically skip past these during note entry
             for (Note* n : notes) {
                 if (n->tieBack()) {
                     undoRemoveElement(n->tieBack());
@@ -561,7 +561,7 @@ void Score::repitchNote(const Position& p, bool replace)
         std::vector<Note*> notes = chord->notes();
         // break all ties into current chord
         // these will exist only if user explicitly moved cursor to a tied-into note
-        // in ordinary use, cursor will autoamtically skip past these during note entry
+        // in ordinary use, cursor will automatically skip past these during note entry
         for (Note* n : notes) {
             if (n->tieBack()) {
                 undoRemoveElement(n->tieBack());
