@@ -169,7 +169,7 @@ Changelog
 – Added half-brackets for keyboard notation to show notes that should be played by the other hand.
 – Many code point changes, including moving the staff divide arrows, percussion swish arrow, and quite a few of the microtonal accidentals; refer to the SMuFL documentation for further details.
 – Further revisions to the plainchant ranges, including adding reversed virga, smaller version of punctum inclinatum, moving the punctum mora to the plainchant articulations range, and eliminating the precomposed podatus and clivis glyphs in favour of individual components that provide the means to construct these easily for any interval.
-– Added new range for Kievian square notation, as used for liturgical chant in the Russian Orthodox Church.
+– Added new range for Kievan square notation, as used for liturgical chant in the Russian Orthodox Church.
 – Added new glyphs for tabling one handbell and tabling a pair of handbells.
 – Added alternative pedal heel glyph and pedal heel or toe glyph.
 – Added recommended stylistic alternates for braces designed for use across different sizes of gaps, designed to be scaled uniformly rather than simply stretched vertically.
