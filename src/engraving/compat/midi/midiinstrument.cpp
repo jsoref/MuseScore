@@ -402,7 +402,7 @@ MidiInstrument minstr[] = {
     { 4, 0, 45, 96, 0, "ClaviPad" },
     { 4, 0, 64, 96, 0, "HrmoRain" },
     { 4, 0, 65, 96, 0, "AfrcnWnd" },
-    { 4, 0, 66, 96, 0, "Caribean" },
+    { 4, 0, 66, 96, 0, "Caribbean" },
     { 7, 0, 0, 97, 0, "Soundtrack" },
     { 4, 0, 27, 97, 0, "Prologue" },
     { 4, 0, 64, 97, 0, "Ancestrl" },
