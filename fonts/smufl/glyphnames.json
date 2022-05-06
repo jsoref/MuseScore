@@ -1802,7 +1802,7 @@
 	},
 	"accidentalQuarterToneSharpBusotti": {
 		"codepoint": "U+E472",
-		"description": "Quarter tone sharp (Bussotti)"
+		"description": "Quarter tone sharp (Busotti)"
 	},
 	"accidentalQuarterToneSharpNaturalArrowUp": {
 		"alternateCodepoint": "U+1D12E",
@@ -1998,7 +1998,7 @@
 	},
 	"accidentalThreeQuarterTonesSharpBusotti": {
 		"codepoint": "U+E474",
-		"description": "Three quarter tones sharp (Bussotti)"
+		"description": "Three quarter tones sharp (Busotti)"
 	},
 	"accidentalThreeQuarterTonesSharpStein": {
 		"codepoint": "U+E283",
