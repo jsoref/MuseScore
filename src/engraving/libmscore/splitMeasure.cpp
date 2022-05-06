@@ -156,7 +156,7 @@ void Score::splitMeasure(Segment* segment)
     m2->adjustToLen(ticks2, false);
     range.write(this, m1->tick());
 
-    // Restore ties the the beginning of the split measure.
+    // Restore ties the beginning of the split measure.
     for (auto tie : ties) {
         tie->setEndNote(searchTieNote(tie->startNote()));
         undoAddElement(tie);
