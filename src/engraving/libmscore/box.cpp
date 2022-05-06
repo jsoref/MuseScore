@@ -836,7 +836,7 @@ void VBox::layout()
 
 void VBox::adjustLayoutWithoutImages()
 {
-    qreal calcuatedVBoxHeight = 0;
+    qreal calculatedVBoxHeight = 0;
     const int padding = score()->spatium();
     auto elementList = el();
 
@@ -844,11 +844,11 @@ void VBox::adjustLayoutWithoutImages()
         if (pElement->isText()) {
             Text* txt = toText(pElement);
             txt->bbox().moveTop(0);
-            calcuatedVBoxHeight += txt->height() + padding;
+            calculatedVBoxHeight += txt->height() + padding;
         }
     }
 
-    setHeight(calcuatedVBoxHeight);
+    setHeight(calculatedVBoxHeight);
     Box::layout();
 }
 
