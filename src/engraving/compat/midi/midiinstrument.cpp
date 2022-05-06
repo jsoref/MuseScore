@@ -424,7 +424,7 @@ MidiInstrument minstr[] = {
     { 4, 0, 70, 98, 0, "AirBells" },
     { 4, 0, 71, 98, 0, "BellHarp" },
     { 4, 0, 72, 98, 0, "Gamelmba" },
-    { 7, 0, 0, 99, 0, "Athmosphere" },
+    { 7, 0, 0, 99, 0, "Atmosphere" },
     { 4, 0, 18, 99, 0, "WarmAtms" },
     { 4, 0, 19, 99, 0, "HollwRls" },
     { 4, 0, 40, 99, 0, "NylonEP" },
