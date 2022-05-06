@@ -763,7 +763,7 @@ void TestText::testDropUnicodeAfterSMUFLwhenCursorSetToSymbol()
     dropSMUFL.dropElement = symbolSMUFL;
     text->drop(dropSMUFL);
 
-    // the bug happend when cursor is in symbol mode
+    // the bug happened when cursor is in symbol mode
     CharFormat* cf = text->cursor()->format();
     cf->setType(CharFormatType::SYMBOL);
 
