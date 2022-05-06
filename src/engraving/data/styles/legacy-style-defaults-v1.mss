@@ -27,7 +27,7 @@
     <lyricsMinDistance>0</lyricsMinDistance>
     <lyricsLineHeight>1</lyricsLineHeight>
     <lyricsDashMinLength>0.4</lyricsDashMinLength>
-    <lyricsDashMaxLegth>0.8</lyricsDashMaxLegth>
+    <lyricsDashMaxLength>0.8</lyricsDashMaxLength>
     <lyricsDashMaxDistance>16</lyricsDashMaxDistance>
     <lyricsDashForce>0</lyricsDashForce>
     <lyricsAlignVerseNumber>1</lyricsAlignVerseNumber>
