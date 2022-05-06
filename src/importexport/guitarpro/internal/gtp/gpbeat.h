@@ -6,7 +6,7 @@
 #include <string>
 
 #include "gpnote.h"
-#include "gprhytm.h"
+#include "gprhythm.h"
 
 namespace Ms {
 class GPBeat
@@ -62,7 +62,7 @@ public:
     };
 
     void addGPNote(const std::shared_ptr<GPNote>& n) { _notes.push_back(n); }
-    void addGPRhytm(const std::shared_ptr<GPRhytm>& n) { _rhytm = n; }
+    void addGPRhytm(const std::shared_ptr<GPRhytm>& n) { _rhythm = n; }
     void setDynamic(GPBeat::DynamicType t) { _dynamic = t; }
     void setLegatoType(GPBeat::LegatoType t) { _legato = t; }
     void setOttavaType(GPBeat::OttavaType ottavaType) { _ottavaType = ottavaType; }
@@ -192,7 +192,7 @@ private:
     std::vector<std::shared_ptr<GPNote> > _notes;
     std::map<Key, std::string> _lyrics;
     std::map<Key, int> _diagramIdx;
-    std::shared_ptr<GPRhytm> _rhytm;
+    std::shared_ptr<GPRhytm> _rhythm;
     DynamicType _dynamic{ DynamicType::MF };
     LegatoType _legato{ LegatoType::None };
     OttavaType _ottavaType = OttavaType::None;

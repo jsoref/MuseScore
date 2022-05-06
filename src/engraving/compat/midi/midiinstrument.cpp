@@ -159,7 +159,7 @@ MidiInstrument minstr[] = {
     { 4, 0, 38, 30, 0, "Dst.5ths" },
     { 4, 0, 40, 30, 0, "FeedbkGt" },
     { 4, 0, 41, 30, 0, "FeedbGt2" },
-    { 4, 0, 43, 30, 0, "RkRythm2" },
+    { 4, 0, 43, 30, 0, "RkRhythm2" },
     { 4, 0, 45, 30, 0, "RockRthm" },
     { 7, 0,  0, 31, 0, "Gtr.Harmonics" },
     { 4, 0, 65, 31, 0, "GtFeedbk" },

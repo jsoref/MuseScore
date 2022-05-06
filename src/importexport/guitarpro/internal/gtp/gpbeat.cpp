@@ -3,11 +3,11 @@
 namespace Ms {
 std::pair<int, GPRhytm::RhytmType> GPBeat::lenth() const
 {
-    return _rhytm->length();
+    return _rhythm->length();
 }
 
 GPRhytm::Tuplet GPBeat::tuplet() const
 {
-    return _rhytm->tuplet();
+    return _rhythm->tuplet();
 }
 }

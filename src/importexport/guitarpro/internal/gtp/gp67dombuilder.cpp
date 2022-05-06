@@ -53,7 +53,7 @@ void GP67DomBuilder::buildGPDomModel(QDomElement* qdomElem)
         assignMap(current);
     }
 
-    std::unordered_map<int, std::shared_ptr<GPRhytm> > rhytms;
+    std::unordered_map<int, std::shared_ptr<GPRhytm> > rhythms;
     buildGPRhythms(&rhythms);
     buildGPNotes(&notes);
     buildGPBeats(&beats);
@@ -250,19 +250,19 @@ void GP67DomBuilder::buildGPNotes(QDomNode* notesNode)
 
 void GP67DomBuilder::buildGPRhythms(QDomNode* rhythmsNode)
 {
-    std::unordered_map<int, std::shared_ptr<GPRhytm> > rhytms;
+    std::unordered_map<int, std::shared_ptr<GPRhytm> > rhythms;
 
     QDomNode innerNode = rhythmsNode->firstChild();
     while (!innerNode.isNull()) {
         auto nodeName = innerNode.nodeName();
         if (nodeName == "Rhythm") {
-            rhytms.insert(createGPRhythm(&innerNode));
+            rhythms.insert(createGPRhythm(&innerNode));
         }
 
         innerNode = innerNode.nextSibling();
     }
 
-    _rhytms.swap(rhytms);
+    _rhythms.swap(rhythms);
 }
 
 std::vector<GPMasterTracks::Automation> GP67DomBuilder::readTempoMap(QDomNode* currentNode)
@@ -614,7 +614,7 @@ std::pair<int, std::shared_ptr<GPBeat> > GP67DomBuilder::createGPBeat(QDomNode* 
             beat->setLegatoType(legato);
         } else if (nodeName == "Rhythm") {
             auto rIdx = innerNode.attributes().namedItem("ref").toAttr().value().toInt();
-            beat->addGPRhytm(_rhytms.at(rIdx));
+            beat->addGPRhytm(_rhythms.at(rIdx));
         } else if (nodeName == "Notes") {
             auto notesStr = innerNode.toElement().text();
             auto strList = notesStr.split(" ");

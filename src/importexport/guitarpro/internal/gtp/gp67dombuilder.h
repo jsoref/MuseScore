@@ -64,7 +64,7 @@ protected:
     std::vector<int> readEnding(QDomNode* endNode) const;
 
     std::unordered_map<int, std::shared_ptr<GPNote> > _notes;
-    std::unordered_map<int, std::shared_ptr<GPRhytm> > _rhytms;
+    std::unordered_map<int, std::shared_ptr<GPRhytm> > _rhythms;
     std::unordered_map<int, std::shared_ptr<GPBeat> > _beats;
     std::unordered_map<int, std::unique_ptr<GPVoice> > _voices;
     std::unordered_map<int, std::unique_ptr<GPBar> > _bars;
