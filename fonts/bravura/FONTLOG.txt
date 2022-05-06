@@ -322,7 +322,7 @@ Changelog
 – Added brass valve trill to 'Brass techniques' range (U+E5EF)
 – Added wind mouthpiece pop and rim only to 'Wind techniques' range (U+E60A, U+E60B)
 – Added bow behind bridge on one, two, three, or four strings to 'String techniques' range (U+E627–U+E62A)
-– Added nasal voice, tongue click, finger click, and tongue and finger click (as used by Stockhausen) to 'Voical techniques' range (U+E648–U+E64A)
+– Added nasal voice, tongue click, finger click, and tongue and finger click (as used by Stockhausen) to 'Vocal techniques' range (U+E648–U+E64A)
 – Added L and reversed-L hooks used instead of Ped. to start and stop sustain pedal indications to 'Keyboard techniques' range (U+E672, U+E673)
 – Added pedal-to-heel and heel-to-pedal transitions to 'Keyboard techniques' range (U+E674, U+E675)
 – Added damp low strings, damp with both hands, damp below, damp above, metallic sounds on a single string, isolated sounds, and snare drum techniques as used by Salzedo to 'Harp techniques' range (U+E697–U+E69D)
