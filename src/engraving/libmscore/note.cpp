@@ -2190,7 +2190,7 @@ void Note::layout()
         if (_ghost) {
             parenthesis = true;
         }
-        // not complete but we need systems to be layouted to add parenthesis
+        // not complete but we need systems to be layed out to add parenthesis
         if (_fixed) {
             _fretString = "/";
         } else {
