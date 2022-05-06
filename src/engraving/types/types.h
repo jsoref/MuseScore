@@ -433,7 +433,7 @@ enum class KeyMode : char {
 enum class TextStyleType {
     DEFAULT,
 
-    // Page-orientde styles
+    // Page-oriented styles
     TITLE,
     SUBTITLE,
     COMPOSER,
