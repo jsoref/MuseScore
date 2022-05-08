@@ -2048,7 +2048,7 @@ void GuitarPro6::addTremoloBar(Segment* segment, int track, int whammyOrigin, in
         b->setTrack(track);
         segment->add(b);
     } else if (whammyMiddle != -1) {
-        // dive starting from pre-existing point
+        // dive starting from preexisting point
         Segment* prevSeg = segment->prev1(SegmentType::ChordRest);
         if (!prevSeg) {
             return;
