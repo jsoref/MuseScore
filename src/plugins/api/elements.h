@@ -793,7 +793,7 @@ public:
     /// \endcond
 
     /// \return EngravingItem at the given \p track (null if there is no such an element)
-    /// \param track track number
+    /// \param track number
     Q_INVOKABLE Ms::PluginAPI::EngravingItem* elementAt(int track);
 };
 
