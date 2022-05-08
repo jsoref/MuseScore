@@ -36,7 +36,7 @@ public:
 
     struct TimeSig {
         int enumerator{ 0 };
-        int denumerator{ 0 };
+        int denomerator{ 0 };
     };
 
     struct Fermata {
@@ -44,9 +44,9 @@ public:
             Short, Medium, Long
         };
         Type type{ Type::Medium };
-        float lenght{ 0 };
+        float length{ 0 };
         int offsetEnum; //enumerator of offset field in GP
-        int offsetDenum; //denumerator of offset field in GP
+        int offsetDenom; //denomerator of offset field in GP
     };
     struct Direction {
         QString target;

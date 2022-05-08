@@ -76,7 +76,7 @@ public:
 signals:
     void titleChanged();
     void currentPatternSegmentChanged();
-    void avaiableArticulationTypesChanged();
+    void availableArticulationTypesChanged();
     void requestedToBeRemoved();
 
     void isActiveChanged();

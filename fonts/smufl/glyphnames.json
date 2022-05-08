@@ -1802,7 +1802,7 @@
 	},
 	"accidentalQuarterToneSharpBusotti": {
 		"codepoint": "U+E472",
-		"description": "Quarter tone sharp (Bussotti)"
+		"description": "Quarter tone sharp (Busotti)"
 	},
 	"accidentalQuarterToneSharpNaturalArrowUp": {
 		"alternateCodepoint": "U+1D12E",
@@ -1998,7 +1998,7 @@
 	},
 	"accidentalThreeQuarterTonesSharpBusotti": {
 		"codepoint": "U+E474",
-		"description": "Three quarter tones sharp (Bussotti)"
+		"description": "Three quarter tones sharp (Busotti)"
 	},
 	"accidentalThreeQuarterTonesSharpStein": {
 		"codepoint": "U+E283",
@@ -10763,9 +10763,9 @@
 		"codepoint": "U+E214",
 		"description": "Combining sul ponticello (bow behind bridge) stem"
 	},
-	"stemSussurando": {
+	"stemSussurrando": {
 		"codepoint": "U+E21D",
-		"description": "Combining sussurando stem"
+		"description": "Combining sussurrando stem"
 	},
 	"stemSwished": {
 		"codepoint": "U+E212",
@@ -11521,9 +11521,9 @@
 		"codepoint": "U+E64A",
 		"description": "Tongue and finger click (Stockhausen)"
 	},
-	"vocalsSussurando": {
+	"vocalsSussurrando": {
 		"codepoint": "U+E646",
-		"description": "Combining sussurando for stem"
+		"description": "Combining sussurrando for stem"
 	},
 	"wiggleArpeggiatoDown": {
 		"codepoint": "U+EAAA",

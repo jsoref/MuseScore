@@ -2149,7 +2149,7 @@ static void readMeasure(Measure* m, int staffIdx, XmlReader& e, ReadContext& ctx
         }
     }
     // For nested tuplets created with MuseScore 1.3 tuplet dialog (i.e. "Other..." dialog),
-    // the parent tuplet was not set. Try to infere if the tuplet was actually a nested tuplet
+    // the parent tuplet was not set. Try to infer if the tuplet was actually a nested tuplet
     for (auto& p : e.tuplets()) {
         Tuplet* tuplet = p.second;
         Fraction tupletTick = tuplet->tick();

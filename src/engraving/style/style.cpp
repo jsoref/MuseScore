@@ -306,7 +306,7 @@ void MStyle::read(XmlReader& e, compat::ReadChordListHook* readChordListHook)
             if (readChordListHook) {
                 readChordListHook->read(e);
             }
-        } else if (tag == "lyricsDashMaxLegth") { // pre-3.6 typo
+        } else if (tag == "lyricsDashMaxLength") { // pre-3.6 typo
             set(Sid::lyricsDashMaxLength, Spatium(e.readDouble()));
         } else if (tag == "dontHidStavesInFirstSystm") { // pre-3.6.3/4.0 typo
             set(Sid::dontHideStavesInFirstSystem, e.readBool());

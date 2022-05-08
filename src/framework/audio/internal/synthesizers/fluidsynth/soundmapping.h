@@ -467,7 +467,7 @@ static const auto& mappingByCategory(const mpe::SoundCategory category)
         { { mpe::SoundId::Horagai,  { mpe::SoundSubCategory::Japanese } }, { midi::Program(0, 60) } },
 
         { { mpe::SoundId::Alphorn,  { mpe::SoundSubCategory::Alpine } }, { midi::Program(0, 60) } },
-        { { mpe::SoundId::RagDung,  { mpe::SoundSubCategory::Tibetian } }, { midi::Program(0, 56), midi::Program(0, 59) } },
+        { { mpe::SoundId::RagDung,  { mpe::SoundSubCategory::Tibetan } }, { midi::Program(0, 56), midi::Program(0, 59) } },
         { { mpe::SoundId::Didgeridoo,  { mpe::SoundSubCategory::Australian } }, { midi::Program(0, 57) } },
         { { mpe::SoundId::Shofar,  {} }, { midi::Program(0, 60) } },
         { { mpe::SoundId::Vuvuzela,  {} }, { midi::Program(0, 56) } },
@@ -555,7 +555,7 @@ static const auto& mappingByCategory(const mpe::SoundCategory category)
 
         { { mpe::SoundId::Drum,  { mpe::SoundSubCategory::Bass } }, { midi::Program(128, 48) } },
         { { mpe::SoundId::Drum,  { mpe::SoundSubCategory::Snare } }, { midi::Program(128, 56) } },
-        { { mpe::SoundId::Drum,  { mpe::SoundSubCategory::Millitary } }, { midi::Program(128, 48) } },
+        { { mpe::SoundId::Drum,  { mpe::SoundSubCategory::Military } }, { midi::Program(128, 48) } },
         { { mpe::SoundId::Drum,  { mpe::SoundSubCategory::Frame } }, { midi::Program(128, 0) } },
         { { mpe::SoundId::Drum,  { mpe::SoundSubCategory::Snare,
                                    mpe::SoundSubCategory::Piccolo } }, { midi::Program(128, 48) } },

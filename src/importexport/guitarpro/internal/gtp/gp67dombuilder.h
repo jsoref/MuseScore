@@ -56,7 +56,7 @@ protected:
     GPMasterBar::TimeSig readTimeSig(QDomNode* timeNode) const;
     void readTrackProperties(QDomNode* propertiesNode, GPTrack* track) const;
     void readBeatProperties(const QDomNode& propertiesNode, GPBeat* beat) const;
-    void readDiagramm(const QDomNode& items, GPTrack* track) const;
+    void readDiagram(const QDomNode& items, GPTrack* track) const;
     void readLyrics(const QDomNode& items, GPTrack* track) const;
     std::vector<GPMasterBar::Fermata> readFermatas(QDomNode* fermatasNode) const;
     std::pair<QString, QString> readMasterBarSection(const QDomNode& sectionNode) const;
@@ -64,12 +64,12 @@ protected:
     std::vector<int> readEnding(QDomNode* endNode) const;
 
     std::unordered_map<int, std::shared_ptr<GPNote> > _notes;
-    std::unordered_map<int, std::shared_ptr<GPRhytm> > _rhytms;
+    std::unordered_map<int, std::shared_ptr<GPRhytm> > _rhythms;
     std::unordered_map<int, std::shared_ptr<GPBeat> > _beats;
     std::unordered_map<int, std::unique_ptr<GPVoice> > _voices;
     std::unordered_map<int, std::unique_ptr<GPBar> > _bars;
 
     std::unique_ptr<GPDomModel> _gpDom;
 };
-} // end Ms namepsace
+} // end Ms namespace
 #endif // GPDOMBUILDER_H

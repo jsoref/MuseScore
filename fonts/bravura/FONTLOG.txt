@@ -53,7 +53,7 @@ Changelog
 - Added specific range of noteheads for sacred harp shape note singing (U+E1E0–U+E1EF).
 - Added pre-composed 1024th notes (U+E214–U+E215), tails (U+E28E–U+E28F) and rest (U+E52C).
 - Added range for typing simple beamed groups of notes in text-based applications, (U+E220–U+E233). Designed to be used in conjunction with pre-composed notes (U+E200–U+E216), and allowing beamed groups with rhythmic values between 8th notes and 64th notes, plus ties and triplets.
-- Added combining stems for multiphonics, damp, sussurando, Saunders vibrato pulse accent (U+E248–U+E24D).
+- Added combining stems for multiphonics, damp, sussurrando, Saunders vibrato pulse accent (U+E248–U+E24D).
 - Added four- and five-stroke tremolos (U+E263–U+E264, U+E268–U+E269) plus Wieniawski-style unmeasured tremolo glyphs (U+E26C–U+26D).
 - Added stylistic alternates for flags (U+E280–U+E28F): straight flags; and shorter stem-up flags to avoid collisions with augmentation dots.
 - Separated accidentals into several discrete ranges based around the various accidental systems, including 12-edo, 24-edo, the system of up- and down-pointing arrows favoured by Gould, Stein-Zimmermann (also known as Tartini-Couper), Maneri-Sims, Ben Johnston, Marc Sabat and Wolfgang von Schweinitz’s Extended Helmholtz-Ellis Just Intonation Pitch Notation. A range has also been reserved for George Secor and Dave Keenan’s Sagittal system of accidentals (U+E360–U+E47F).
@@ -69,7 +69,7 @@ Changelog
 - Added range of glyphs for embouchure tightness (U+E61B–U+E623), reed position (U+E624–U+E626), multiphonics (U+E627–U+E629), and stylistic alternates for double- and triple-tonguing with no slurs.
 - Added further overpressure glyphs (U+E64B–U+E64D), plus jété, fouetté, Rebecca Saunders’s “vibrato pulse” accent and thumb position (U+E64E–U+E652) to string techniques range.
 - Added plectrum pictogram (U+E669) and combining damp glyph for note stems (U+E66A) to plucked techniques range.
-- Added arrows for breathing and intonation, plus combining sussurando glyph for note stems (U+E687–U+E68B), to vocal techniques range.
+- Added arrows for breathing and intonation, plus combining sussurrando glyph for note stems (U+E687–U+E68B), to vocal techniques range.
 - Added pedal pictograms, sostenuto pedal symbols, and half-pedal marks (U+E6A5–U+E6AC) to keyboard techniques range.
 - Added pictograms for metal rod (U+E6CF) and tuning key (U+E6D0) to harp techniques range.
 - Added Smith Brindle’s pictograms for tuned percussion instruments (U+E6E5–U+E6E8).
@@ -169,7 +169,7 @@ Changelog
 – Added half-brackets for keyboard notation to show notes that should be played by the other hand.
 – Many code point changes, including moving the staff divide arrows, percussion swish arrow, and quite a few of the microtonal accidentals; refer to the SMuFL documentation for further details.
 – Further revisions to the plainchant ranges, including adding reversed virga, smaller version of punctum inclinatum, moving the punctum mora to the plainchant articulations range, and eliminating the precomposed podatus and clivis glyphs in favour of individual components that provide the means to construct these easily for any interval.
-– Added new range for Kievian square notation, as used for liturgical chant in the Russian Orthodox Church.
+– Added new range for Kievan square notation, as used for liturgical chant in the Russian Orthodox Church.
 – Added new glyphs for tabling one handbell and tabling a pair of handbells.
 – Added alternative pedal heel glyph and pedal heel or toe glyph.
 – Added recommended stylistic alternates for braces designed for use across different sizes of gaps, designed to be scaled uniformly rather than simply stretched vertically.
@@ -322,7 +322,7 @@ Changelog
 – Added brass valve trill to 'Brass techniques' range (U+E5EF)
 – Added wind mouthpiece pop and rim only to 'Wind techniques' range (U+E60A, U+E60B)
 – Added bow behind bridge on one, two, three, or four strings to 'String techniques' range (U+E627–U+E62A)
-– Added nasal voice, tongue click, finger click, and tongue and finger click (as used by Stockhausen) to 'Voical techniques' range (U+E648–U+E64A)
+– Added nasal voice, tongue click, finger click, and tongue and finger click (as used by Stockhausen) to 'Vocal techniques' range (U+E648–U+E64A)
 – Added L and reversed-L hooks used instead of Ped. to start and stop sustain pedal indications to 'Keyboard techniques' range (U+E672, U+E673)
 – Added pedal-to-heel and heel-to-pedal transitions to 'Keyboard techniques' range (U+E674, U+E675)
 – Added damp low strings, damp with both hands, damp below, damp above, metallic sounds on a single string, isolated sounds, and snare drum techniques as used by Salzedo to 'Harp techniques' range (U+E697–U+E69D)

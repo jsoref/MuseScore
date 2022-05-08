@@ -375,7 +375,7 @@ bool Score::pasteStaff(XmlReader& e, Segment* dst, staff_idx_t dstStaff, Fractio
                         undoTransposeHarmony(harmony, rootTpc, baseTpc);
                     }
 
-                    // remove pre-existing chords on this track
+                    // remove preexisting chords on this track
                     // but be sure not to remove any we just added
                     for (EngravingItem* el : seg->findAnnotations(ElementType::HARMONY, e.track(), e.track())) {
                         if (std::find(pastedHarmony.begin(), pastedHarmony.end(), el) == pastedHarmony.end()) {
@@ -494,7 +494,7 @@ bool Score::pasteStaff(XmlReader& e, Segment* dst, staff_idx_t dstStaff, Fractio
                 if (sp->anchor() == Spanner::Anchor::CHORD || sp->anchor() == Spanner::Anchor::NOTE) {
                     continue;
                 }
-                // skip if present oiginally
+                // skip if present originally
                 auto i = std::find(oSpannerList.begin(), oSpannerList.end(), sp);
                 if (i != oSpannerList.end()) {
                     continue;

@@ -1075,7 +1075,7 @@ QByteArray Selection::symbolListMimeData() const
             bool done = false;
             for (; seg; seg = seg->next1()) {
                 if (seg->isChordRestType()) {
-                    // if no ChordRest in right track, look in anotations
+                    // if no ChordRest in right track, look in annotations
                     if (seg->element(currTrack) == nullptr) {
                         foreach (EngravingItem* el, seg->annotations()) {
                             // do annotations include our element?
